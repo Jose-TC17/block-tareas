@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img::selection{
+    display: none;
+}
+
+body{
+    background: #fff;
+    transition: .3s linear;
+}
+
+body.dark{
+    background: #243447;
+}
